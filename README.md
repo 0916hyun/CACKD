@@ -13,20 +13,17 @@ CACKD is a [segmentation_models_pytorch](https://github.com/qubvel/segmentation_
 - **Synthetic Flare Dataset Compatibility**: Includes data loaders and augmentations tailored for Syn-flare CamVid and Syn-flare KITTI benchmarks.  
 - **Built-in Grad-CAM Tools**: Multi-layer Grad-CAM scripts for visualizing how CCAM adjusts focus under flare—ideal for debugging and paper figures.
 
----
-
 ## 📦 Installation
 
 ```bash
-pip install cackd
-
-Or from source:
-
 git clone https://github.com/yourusername/CACKD.git
 cd CACKD
 pip install -e .
+```
 
-## 🗂 Datasets (Syn-flare CamVid & KITTI)
+---
+
+## 🗄️ Datasets (Syn-flare CamVid & KITTI)
 
 ### Syn-flare CamVid
 ```bash
@@ -37,5 +34,3 @@ gdown --id 1-XXXXXXXXXXXXXXX -O syn-flare-camvid.zip
 ```bash
 gdown --id 1-YYYYYYYYYYYYYYY -O syn-flare-kitti.zip
 ```
-
-
