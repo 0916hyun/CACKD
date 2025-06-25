@@ -25,3 +25,17 @@ Or from source:
 git clone https://github.com/yourusername/CACKD.git
 cd CACKD
 pip install -e .
+
+## 🗂 Datasets (Syn-flare CamVid & KITTI)
+
+### Syn-flare CamVid
+```bash
+gdown --id 1-XXXXXXXXXXXXXXX -O syn-flare-camvid.zip
+```
+
+### Syn-flare KITTI
+```bash
+gdown --id 1-YYYYYYYYYYYYYYY -O syn-flare-kitti.zip
+```
+
+
