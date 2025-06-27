@@ -1,13 +1,5 @@
 # CACKD
 
-## 📦 Installation
-
-```bash
-git clone https://github.com/yourusername/CACKD.git
-cd CACKD
-pip install -e .
-```
-
 ---
 
 ## 🗄️ Datasets (Syn-flare CamVid & KITTI)
